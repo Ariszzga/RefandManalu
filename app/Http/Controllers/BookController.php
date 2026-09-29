@@ -7,9 +7,9 @@ use Illuminate\Http\Request;
 class BookController extends Controller
 {
     private array $daftarBuku = [
-        1 => ['judul' => 'Belajar PHP dari Nol', 'penulis' => 'Ni Made Ayu Kartika'],
-        2 => ['judul' => 'Dasar Pemrograman Berorientasi Objek', 'penulis' => 'I Wayan Sudiarta'],
-        3 => ['judul' => 'Pengantar Basis Data', 'penulis' => 'Kadek Agus Wirawan'],
+        1 => ['judul' => 'Belajar PHP dari Nol', 'penulis' => 'Ni Made Ayu Kartika', 'harga' => 75000],
+        2 => ['judul' => 'Dasar Pemrograman Berorientasi Objek', 'penulis' => 'I Wayan Sudiarta', 'harga' => 85000],
+        3 => ['judul' => 'Pengantar Basis Data', 'penulis' => 'Kadek Agus Wirawan', 'harga' => 95000],
     ];
 
     public function index()
